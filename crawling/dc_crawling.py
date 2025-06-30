@@ -173,7 +173,7 @@ def crawl(start: int, end: int = 1):
                 print("댓글 수 파싱 실패")
                 continue
 
-            if comment_count <= 200:
+            if comment_count <= 300:
                 print(f"댓글 {comment_count}개 → 저장 스킵")
                 continue
 

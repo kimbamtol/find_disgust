@@ -1,0 +1,6 @@
+# 작업 결과 저장 폴더 (커밋에서 제외)
+result/
+ilbe_result/
+fm_korea_result/
+datasets/
+.ipynb_checkpoints/

@@ -167,7 +167,7 @@ def scrape_post(url: str) -> Dict:
 
 # ── 6. 메인 루프 ────────────────────────────────────────────
 def crawl(start: int, end: int = 1):
-    Path("result").mkdir(exist_ok=True)
+    Path("dc_result").mkdir(exist_ok=True)
     for no in range(start, end - 1, -1):
         print(f"[{no}] ", end="", flush=True)
         try:
@@ -180,7 +180,7 @@ def crawl(start: int, end: int = 1):
             if n_com == 0:
                 logging.warning(f"[{no}] 댓글 0개 (URL: {meta['url']})")
 
-            Path(f"result/{no}.json").write_text(
+            Path(f"dc_result/{no}.json").write_text(
                 json.dumps({"dcbest_meta": meta, "post": post_data},
                            ensure_ascii=False, indent=2),
                 "utf-8-sig"

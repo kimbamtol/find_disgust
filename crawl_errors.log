@@ -1,0 +1,195 @@
+2025-06-30 20:36:06,458 [ERROR] [7045542279] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:07,751 [ERROR] [7045333301] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:08,822 [ERROR] [7045472751] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:09,677 [ERROR] [7045442206] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:10,933 [ERROR] [7045312408] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:11,969 [ERROR] [7045460530] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:36:13,347 [ERROR] [7045268212] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 202, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:37:31,141 [ERROR] [7045542279] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 205, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:37:32,436 [ERROR] [7045333301] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 205, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:37:33,653 [ERROR] [7045472751] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 205, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:37:34,728 [ERROR] [7045442206] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 205, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:37:35,816 [ERROR] [7045312408] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 205, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 174, in scrape_post
+    "dislikes": cnt("a.vote3"),
+                ^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 162, in cnt
+    return int(els[0].text.replace(",", "")) if els else 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '방출'
+2025-06-30 20:39:00,104 [ERROR] [7045542279] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 213, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 183, in scrape_post
+    "comments": selenium_fetch_comments(),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 130, in selenium_fetch_comments
+    comments.extend(extract())
+                    ^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 84, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Python\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 20:39:11,690 [ERROR] [7045333301] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 213, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 183, in scrape_post
+    "comments": selenium_fetch_comments(),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 130, in selenium_fetch_comments
+    comments.extend(extract())
+                    ^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 84, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Python\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 20:39:23,106 [ERROR] [7045472751] 크롤링/저장 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 213, in crawl_page
+    data = scrape_post(p["url"])
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 183, in scrape_post
+    "comments": selenium_fetch_comments(),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 130, in selenium_fetch_comments
+    comments.extend(extract())
+                    ^^^^^^^^^
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\fm_korea_crawling.py", line 84, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Python\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
