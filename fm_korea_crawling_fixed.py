@@ -16,7 +16,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# ── 로그 설정 ──────────────────────────────────────────────
+# ── 설정 ─────────────────────────────────────
+USE_SELENIUM_FOR_LIST = True  # 목록도 selenium으로 가져올지 여부
+
+# ── 로그 설정 ────────────────────────────────
 logging.basicConfig(
     filename="crawl_errors.log",
     level=logging.INFO,
@@ -24,20 +27,19 @@ logging.basicConfig(
     encoding="utf-8"
 )
 
-# ── 1. Selenium 초기화 ──────────────────────────────────────
+# ── Selenium 초기화 ─────────────────────────
 CHROMEDRIVER = r"C:\Users\OptLab\Desktop\tori\My논문\GECCO_2025\New_TSP_GPT_GA\chromedriver-win64\chromedriver.exe"
 service = Service(CHROMEDRIVER)
 opts = webdriver.ChromeOptions()
 opts.add_argument("--start-maximized")
-opts.add_argument("--headless=new")
-#opts.add_argument("--disable-gpu")
+#opts.add_argument("--headless=new")
 opts.add_argument("--enable-gpu")
 opts.add_argument("--no-sandbox")
 opts.add_argument("--enable-unsafe-swiftshader")
 driver = webdriver.Chrome(service=service, options=opts)
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 20)
 
-# ── 2. requests 세션 ───────────────────────────────────────
+# ── Requests 세션 설정 ──────────────────────
 sess = requests.Session()
 sess.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -48,11 +50,10 @@ sess.headers.update({
     "Connection": "keep-alive"
 })
 
-
 BASE = "https://www.fmkorea.com"
 
-# ── 3. 베스트 게시판 목록 페치 ──────────────────────────────
-def fetch_best_list(page: int) -> List[Dict]:
+# ── 목록 크롤러 (requests) ────────────────────────
+def fetch_best_list_requests(page: int) -> List[Dict]:
     res = sess.get(
         "https://www.fmkorea.com/index.php",
         params={"mid": "best", "page": page},
@@ -75,12 +76,35 @@ def fetch_best_list(page: int) -> List[Dict]:
                 "url": url
             })
         except Exception:
-            logging.exception(f"목록 파싱 실패: {li}")
+            logging.exception(f"[requests] 목록 파싱 실패: {li}")
             continue
 
     return posts
 
-# ── 4. FmKorea 댓글 크롤러 (페이지네이션 포함) ─────────────────
+# ── 목록 크롤러 (selenium) ───────────────────────
+def fetch_best_list_selenium(page: int) -> List[Dict]:
+    url = f"https://www.fmkorea.com/index.php?mid=best&page={page}"
+    driver.get(url)
+    wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "li.li_best2_pop0")))
+
+    posts = []
+    for li in driver.find_elements(By.CSS_SELECTOR, "li.li_best2_pop0"):
+        try:
+            href = li.find_element(By.CSS_SELECTOR, "a.pc_voted_count").get_attribute("href")
+            no = int(href.rsplit("/", 1)[-1])
+            comment_text = li.find_element(By.CSS_SELECTOR, "span.comment_count").text.strip()
+            comment_count = int(re.sub(r"[^\d]", "", comment_text))
+            posts.append({
+                "no": no,
+                "comment_count": int(comment_count),
+                "url": urljoin(BASE, f"/best/{no}")
+            })
+        except Exception:
+            logging.exception(f"[selenium] 목록 파싱 실패")
+            continue
+    return posts
+
+# ── 댓글 크롤러 ───────────────────────────────
 def selenium_fetch_comments() -> List[Dict]:
     def extract() -> List[Dict]:
         wait.until(EC.presence_of_all_elements_located(
@@ -112,19 +136,13 @@ def selenium_fetch_comments() -> List[Dict]:
                 continue
         return items
 
-    all_comments: List[Dict] = []
-    # 첫 페이지
-    all_comments.extend(extract())
+    all_comments: List[Dict] = extract()
 
-    # 페이지네이션: cpage가 1,2,3... 순회
     current_page = 1
     while True:
-        # pagination 영역
         try:
             pg = driver.find_element(By.CSS_SELECTOR, "div.bd_pg")
-            # 다음 페이지 번호
             next_page = str(current_page + 1)
-            # 숫자 링크들 중에 next_page 가 있는지
             links = pg.find_elements(By.CSS_SELECTOR, "a")
             target = None
             for a in links:
@@ -132,16 +150,14 @@ def selenium_fetch_comments() -> List[Dict]:
                     target = a
                     break
             if not target:
-                break  # 더 이상 페이지 없음
+                break
 
-            # 클릭 & 로드 대기
             driver.execute_script("arguments[0].click();", target)
             wait.until(EC.text_to_be_present_in_element(
                 (By.CSS_SELECTOR, "div.bd_pg strong.this"),
                 next_page
             ))
             time.sleep(0.5)
-
             all_comments.extend(extract())
             current_page += 1
         except Exception:
@@ -149,7 +165,7 @@ def selenium_fetch_comments() -> List[Dict]:
 
     return all_comments
 
-# ── 5. 글 본문 + 댓글 스크랩 ───────────────────────────────
+# ── 본문 크롤러 ───────────────────────────────
 def scrape_post(url: str) -> Dict:
     driver.get(url)
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.rd_hd")))
@@ -189,14 +205,19 @@ def scrape_post(url: str) -> Dict:
         "keyword_content": None
     }
 
-# ── 6. 페이지 단위 크롤러 ─────────────────────────────────
+# ── 페이지 단위 크롤링 ───────────────────────
 def crawl_page(page: int):
     output_dir = Path("fm_korea_result")
     output_dir.mkdir(exist_ok=True)
 
-    posts = fetch_best_list(page)
+    try:
+        posts = fetch_best_list_selenium(page) if USE_SELENIUM_FOR_LIST else fetch_best_list_requests(page)
+    except Exception as e:
+        print(f"[Page {page}] 목록 불러오기 실패 → {e}")
+        return
+
     if not posts:
-        print(f"Page {page}: 글을 찾지 못함")
+        print(f"[Page {page}] 글을 찾지 못함")
         return
 
     counts = [p["comment_count"] for p in posts]
@@ -221,15 +242,13 @@ def crawl_page(page: int):
             logging.exception(f"[{no}] 크롤링/저장 실패")
             print(f"    ERROR: 크롤링 실패")
 
-# ── 7. 엔트리포인트 ───────────────────────────────────────
+# ── 엔트리포인트 ─────────────────────────────
 if __name__ == "__main__":
-    # 범위 입력
     start = int(input("시작 베스트 페이지 번호≫ ").strip())
-    end   = int(input("끝 베스트 페이지 번호≫  ").strip())
+    end = int(input("끝 베스트 페이지 번호≫  ").strip())
 
-    # start 부터 end까지 반복 호출
-    for page in range(start, end, -1):
-        print(f"=== Page {page} 크롤링 시작 ===")
+    for page in range(start, end - 1, -1):
+        print(f"\n=== Page {page} 크롤링 시작 ===")
         crawl_page(page)
 
     driver.quit()

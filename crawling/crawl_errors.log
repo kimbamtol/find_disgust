@@ -22717,3 +22717,1093 @@ Traceback (most recent call last):
     raise TimeoutException(message, screen, stacktrace)
 selenium.common.exceptions.TimeoutException: Message: 
 
+2025-06-30 21:02:35,120 [ERROR] [125801] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 21:57:53,659 [ERROR] [125580] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 22:05:00,136 [ERROR] [125531] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 22:34:53,191 [ERROR] [125417] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-06-30 22:50:21,531 [ERROR] [125370] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 05:54:55,806 [ERROR] [123645] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-01 10:58:55,501 [ERROR] [122339] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 124, in scrape_post
+    driver.get(url)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=58246): Read timed out. (read timeout=120)
+2025-07-01 11:00:57,027 [ERROR] [122338] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 162, in crawl
+    driver.get(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=58246): Read timed out. (read timeout=120)
+2025-07-01 13:26:13,311 [ERROR] [121682] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 14:02:55,812 [ERROR] [121539] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 15:04:03,789 [ERROR] [121257] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 21:12:38,894 [ERROR] [119645] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 21:21:35,993 [ERROR] [119570] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-01 22:00:27,278 [ERROR] [119413] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-02 03:34:04,242 [ERROR] [117954] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 289, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 289, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-02 05:37:29,984 [ERROR] [117400] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 06:01:35,428 [ERROR] [117260] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-02 07:08:50,245 [ERROR] [116993] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-02 16:39:23,202 [ERROR] [114515] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 17:13:28,151 [ERROR] [114308] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 17:15:05,545 [ERROR] [114304] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 17:30:24,006 [ERROR] [114235] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 19:12:22,311 [ERROR] [113790] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 19:20:04,242 [ERROR] [113758] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 144, in scrape_post
+    "comments"  : selenium_fetch_comments(),
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 106, in selenium_fetch_comments
+    comments.extend(extract())
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 63, in extract
+    wait.until(EC.presence_of_all_elements_located(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-07-02 19:27:32,796 [ERROR] [113735] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 124, in scrape_post
+    driver.get(url)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=58246): Read timed out. (read timeout=120)
+2025-07-02 19:45:15,247 [ERROR] [113671] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 162, in crawl
+    driver.get(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=58246): Read timed out. (read timeout=120)
+2025-07-02 20:29:12,492 [ERROR] [113481] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-02 21:48:16,945 [ERROR] [113199] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 162, in crawl
+    driver.get(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=58246): Read timed out. (read timeout=120)
+2025-07-02 21:50:36,525 [ERROR] [113186] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-03 00:14:01,540 [ERROR] [112505] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1275, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\ssl.py", line 1133, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 157, in crawl
+    meta = fetch_dcbest_meta(no)
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 39, in fetch_dcbest_meta
+    res = sess.get("https://gall.dcinside.com/board/view/",
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='gall.dcinside.com', port=443): Read timed out. (read timeout=10)
+2025-07-03 03:44:15,006 [ERROR] [111595] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 180, in crawl
+    post_data = scrape_post(meta["url"])
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 125, in scrape_post
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.gallview_head")))
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7272CCF65+75717]
+	GetHandleVerifier [0x00007FF7272CCFC0+75808]
+	(No symbol) [0x00007FF727098F9A]
+	(No symbol) [0x00007FF7270EF4C6]
+	(No symbol) [0x00007FF7270EF77C]
+	(No symbol) [0x00007FF727142577]
+	(No symbol) [0x00007FF7271173BF]
+	(No symbol) [0x00007FF72713F39C]
+	(No symbol) [0x00007FF727117153]
+	(No symbol) [0x00007FF7270E0421]
+	(No symbol) [0x00007FF7270E11B3]
+	GetHandleVerifier [0x00007FF7275CD74D+3223469]
+	GetHandleVerifier [0x00007FF7275C7CF2+3200338]
+	GetHandleVerifier [0x00007FF7275E5B23+3322755]
+	GetHandleVerifier [0x00007FF7272E6A3A+180890]
+	GetHandleVerifier [0x00007FF7272EE13F+211359]
+	GetHandleVerifier [0x00007FF7272D52B4+109332]
+	GetHandleVerifier [0x00007FF7272D5462+109762]
+	GetHandleVerifier [0x00007FF7272BBA79+4825]
+	BaseThreadInitThunk [0x00007FF9AFA17374+20]
+	RtlUserThreadStart [0x00007FF9B03DCC91+33]
+
+2025-07-03 13:39:12,299 [ERROR] [343091] 크롤링 실패
+Traceback (most recent call last):
+  File "C:\Users\OptLab\Desktop\tori\Proejct\find_disgust\crawling\dc_crawling.py", line 185, in crawl
+    Path(f"result/{no}.json").write_text(
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\pathlib.py", line 1285, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\pathlib.py", line 1252, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "C:\Users\OptLab\Desktop\tori\Conda\py390\lib\pathlib.py", line 1120, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'result\\343091.json'
